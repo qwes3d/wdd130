@@ -8,11 +8,11 @@
 	
 }
 
-.callout img {
+.main img {
     float: right;
     margin: 20px;
     border: 1px solid black;
-    padding: 3px;
+    padding: 0px;
     background-color: #bbb;
     width: 100px;
     height: auto;
@@ -39,6 +39,7 @@ aside {
     color: white;
     padding: 10px;
     margin: 1rem;
+    border: #bbb;
     padding: 1rem;
     text-align: center;
     width: 20rem;
@@ -48,7 +49,7 @@ aside {
 }
 
 aside img {
-    width: 150px;
+    width: 200px;
     height: auto;
    
 }
