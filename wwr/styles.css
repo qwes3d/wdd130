@@ -148,3 +148,75 @@ body {
     background-color: #0056b3;
   }
   
+  /* History Section Layout */
+.history {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    gap: 20px;
+  }
+  
+  .history-text {
+    flex: 1;
+  }
+  
+  .history-text h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .history-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .history-img {
+    flex: 1;
+    max-width: 500px;
+  }
+  
+  .history-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  /* General Styles */
+/* Adventures Section Layout */
+.adventures {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.adventure-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;  /* Space between the images */
+  overflow: hidden;
+  padding: 0 10px;
+}
+
+.adventure {
+  flex: 1;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.adventure img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.adventure figcaption {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+
+}
+section
+{
+  text-align: center;
+}
