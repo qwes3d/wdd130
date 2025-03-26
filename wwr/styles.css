@@ -37,6 +37,28 @@ body {
     width: 100%;
     bottom: 0;
   }
+  /* Social Media Icons Container */
+.social-media {
+  display: flex; /* Aligns the icons horizontally */
+  justify-content: flex-end; /* Aligns the icons to the right */
+  gap: 20px; /* Adds space between the icons */
+  padding-right: 20px; /* Optional: adds some space between the icons and the footer's right edge */
+}
+
+/* Style for Social Media Icons */
+.social-media a {
+  display: inline-block; /* Makes the anchor tags inline-block so they behave like block elements */
+}
+
+.social-media img {
+  width: 30px; /* Adjust the size of the icons */
+  height: auto; /* Keeps the aspect ratio of the icons */
+  transition: transform 0.3s ease; /* Adds a smooth transition effect when hovering */
+}
+
+.social-media img:hover {
+  transform: scale(1.1); /* Slightly enlarges the icon on hover */
+}
   
   h1, h2, h3 {
     color: #333; font-family: merriweather, sans-serif;
