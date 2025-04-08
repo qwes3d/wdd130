@@ -64,9 +64,6 @@ body {
     color: #33c; font-family: merriweather, sans-serif;
   }
   
-  a {
-    color: #007bff;
-  }
   
   a:hover {
     text-decoration: underline;
@@ -75,9 +72,16 @@ body {
   /* Hero Section */
   .hero {
     background: url('hero-image.jpg') no-repeat center center/cover;
-    color: #fff;
-    text-align: center;
+    color: #4c75e7;
+    text-align: left;
     padding: 4rem 2rem;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+  }
+  
+  .hero-image {
+    width: 100%;
+    border-radius: 10px;
   }
   
   .hero h1 {
@@ -89,9 +93,29 @@ body {
     margin: 1rem 0;
   }
   
+  .newsletter {
+    display: grid;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .newsletter form {
+    margin-top: 1rem;
+  }
+  
+  .newsletter input {
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  .newsletter button {
+    padding: 0.5rem 1rem;
+  }
   .cta-button {
     background-color: #007bff;
-    color: #fff;
+    color: #1f0e8098;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -344,8 +368,4 @@ footer a:hover {
   color: #333;
   font-weight: bold;
 
-}
-section
-{
-  text-align: center;
 }
