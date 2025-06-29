@@ -1,0 +1,159 @@
+/* Base Reset and Global Styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Ancizar Sans', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f8f9fa;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #00695c;
+}
+
+a:hover {
+  color: #004d40;
+}
+
+/* Fixed Page Container */
+body {
+  width: 1000px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #004d40;
+  color: white;
+  padding: 1rem;
+}
+
+header img {
+  height: 60px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.navigation a {
+  color: white;
+  padding: 0.5rem 1rem;
+  background-color: #00695c;
+  border-radius: 5px;
+}
+
+.navigation a:hover {
+  background-color: #00796b;
+}
+
+/* Main */
+main {
+  padding: 2rem;
+}
+
+main > div {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+article {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+article img {
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+article p {
+  flex: 1;
+  text-align: left;
+}
+
+/* Section Styles */
+section {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+section p {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Adventure Images – Fixed Column */
+
+.adventure-images {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 1.5rem;
+  justify-items: center;
+  margin-top: 2rem;
+}
+
+.adventure-images img {
+  width: 500px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  background-color: #004d40;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.social-media a img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  transition: transform 0.2s ease-in-out;
+}
+
+.social-media a img:hover {
+  transform: scale(1.1);
+}
