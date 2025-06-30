@@ -1,8 +1,8 @@
 main {
-    max-width: 840;
+    max-width: 840px;
 }
 nav {
-    background-color: darkblue;
+    background-color: rgb(4, 4, 49);
     padding: 10px;
 }
  nav a {
@@ -11,21 +11,21 @@ nav {
     padding: 20px;
 }
 h1 {
-    color: steelblue;
+    color: rgb(2, 13, 37);
 }
 main img {
-    width: 15opx;
+    width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 p {
-    padding: 10px;
+    padding: 0;
 }
 aside {
-    background-color: #eee;
-    color: #333;
+    background-color: #030424;
+    color: #ece8e8;
     margin: 1rem;
     padding: 1rem;
     text-align: center;
