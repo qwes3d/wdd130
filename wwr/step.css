@@ -1,0 +1,439 @@
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 8px;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: block;
+    
+  }
+  
+  header {
+    background-color: #333;
+    /*color: #ccc;*/
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  /* Social Media Icons Container */
+.social-media {
+  display: flex; /* Aligns the icons horizontally */
+  justify-content: flex-end; /* Aligns the icons to the right */
+  gap: 20px; /* Adds space between the icons */
+  padding-right: 20px; /* Optional: adds some space between the icons and the footer's right edge */
+}
+
+/* Style for Social Media Icons */
+.social-media a {
+  display: inline-block; /* Makes the anchor tags inline-block so they behave like block elements */
+}
+
+.social-media img {
+  width: 30px; /* Adjust the size of the icons */
+  height: auto; /* Keeps the aspect ratio of the icons */
+  transition: transform 0.3s ease; /* Adds a smooth transition effect when hovering */
+}
+
+.social-media img:hover {
+  transform: scale(1.1); /* Slightly enlarges the icon on hover */
+}
+  
+  h1, h2, h3 {
+    color: #33c; font-family: merriweather, sans-serif;
+  }
+  
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('images/w4.webp') no-repeat center center/cover;
+    color: #4c75e7;
+    text-align: left;
+    padding: 4rem 2rem;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+  }
+  
+  .hero-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+    margin: 1rem 0;
+  }
+  
+  .newsletter {
+    display: grid;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .newsletter form {
+    margin-top: 1rem;
+  }
+  
+  .newsletter input {
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  .newsletter button {
+    padding: 0.5rem 1rem;
+  }
+  .cta-button {
+    background-color: #007bff;
+    color: #1f0e8098;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.25rem;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  
+  /* Trips Section */
+  .trips {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem 1rem;
+    text-align: center;
+    
+  }
+  
+  .trips h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .trip-card {
+    background-color: #fff;
+    padding: 1.5rem;
+    margin: 1rem;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .trip-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    
+  }
+  
+  .trip-card h3 {
+    font-size: 1.5rem;
+  margin-top: 0.75rem;
+  color: #008080;
+  }
+
+  .trip-card a:hover {
+    background-color: #005f5f;
+  }
+  
+  
+.trip-card p {
+  font-size: 1rem;
+  margin: 0.5rem 0 1rem;
+}
+  .trip-card a {
+   color: #007bff;
+   text-decoration: none;
+   color: white;
+   background-color: #008080;
+   padding: 0.5rem 1rem;
+   border-radius: 5px;
+   transition: background-color 0.3s ease;
+
+  }
+  
+
+  .contact {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    font-family: 'Segoe UI', sans-serif;
+   }
+  
+  .contact h1,
+  .contact h2 {
+    color: #005f5f;
+    margin-bottom: 1rem;
+    text-align: center;
+   }
+  
+  .company-info {
+    background-color: #ffffff;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+  
+  .company-info p {
+    margin: 0.5rem 0;
+   }
+  
+  /* Contact Form */
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+   }
+  
+  .contact input, .contact textarea {
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   }
+
+  /* Employee Profiles */
+  .employee-profiles {
+   text-align: center;
+   margin-bottom: 30px;
+   }
+
+  .employee {
+   display: inline-block;
+   width: 30%;
+   margin: 10px;
+   }
+
+  .employee img {
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   object-fit: cover;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+   }
+
+  .employee p {
+   font-weight: bold;
+}
+
+  .employee span {
+  display: block;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Map Section */
+  .map {
+   margin: 2rem auto;
+   max-width: 700px;
+   text-align: center;
+}
+
+  .map iframe {
+   width: 100%;
+   height: 400px;
+   border: none;
+   border-radius: 10px;
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+/* Form Styles */
+  form {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+
+   label {
+  font-weight: bold;
+}
+
+
+
+  fieldset {
+  border: none;
+  padding: 0;
+}
+
+  legend {
+  font-weight: bold;
+}
+   input[type="radio"], input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+  
+  .contact button[type="deliver"] {
+    background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+  }
+  
+.contact button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #0077cc;
+  color: white;
+  margin-top: 30px;
+}
+
+/* Wireframe Link */
+footer a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+  /* History Section Layout */
+.history {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    gap: 20px;
+  }
+  
+  .history-text {
+    flex: 1;
+  }
+  
+  .history-text h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .history-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .history-img {
+    flex: 1;
+    max-width: 500px;
+  }
+  
+  .history-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+
+  }
+
+  .content {
+    display: flex;
+    align-items: flex-start;  /* Aligns items at the top of the container */
+  }
+  
+  .image-container {
+    flex-shrink: 0;  /* Prevent the image from shrinking */
+    margin-right: 15px;  /* Space between the image and the text */
+  }
+  
+  .image {
+    width: 200px;   /* Set the image size (adjustable) */
+    height: auto;   /* Maintain the aspect ratio */
+  }
+  
+  .text-container {
+    flex-grow: 1;   /* Allow the text container to grow and take up available space */
+  }
+  
+ 
+  /* General Styles */
+/* Adventures Section Layout */
+.adventures {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.adventure-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;  /* Space between the images */
+  overflow: hidden;
+  padding: 0 10px;
+}
+
+.adventure {
+  flex: 1;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 400px;  /* Or any other value that fits your design */
+
+}
+
+.adventure img {
+  width: 200%;
+  height: 120%;
+  display: block;
+  border-radius: 8px;
+
+
+}
+
+.adventure figcaption {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #333;
+  font-weight: bold;
+
+}
