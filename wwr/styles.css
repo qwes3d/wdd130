@@ -25,11 +25,12 @@ h1, h2, h3 {
 header {
   background-color: var(--primary-color);
   color: white;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr auto;
   align-items: center;
   padding: 1rem;
 }
+
 
 .branding {
   display: flex;
